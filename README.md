@@ -1,10 +1,10 @@
-# Package name
-Package Name
+# Sophist
+σοφιστής
 <pre>
-  pip install package-name
+  pip install sophist
 </pre>
 Then:
 ```Python
   # Python
-  import package_name
+  import sophist
 ```

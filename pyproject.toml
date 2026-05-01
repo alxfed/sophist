@@ -2,7 +2,7 @@
 requires = ["setuptools>=67.0"]
 build-backend = "setuptools.build_meta"
 [project]
-name = "package-name"
+name = "sophist"
 version = "0.0.1"
 authors = [
     {name="Alexander Fedotov", email="alex.fedotov@aol.com"},
@@ -16,7 +16,7 @@ classifiers=[
         "Operating System :: OS Independent",
 ]
 
-keywords = ["package-name"]
+keywords = ["sophist"]
 
 dependencies = [
     "PyGithub >= 2.6.0",
@@ -25,8 +25,7 @@ dependencies = [
 ]
 
 [project.scripts]
-package-name = "package_name.cli:run"
+sophist = "sophist.cli:run"
 
 [project.urls]
-"Homepage" = "https://github.com/org_name/package_name"
-"Bug Tracker" = "https://github.com/org_name/package_name/issues"
+"Homepage" = "https://github.com/alxfed/sophist"

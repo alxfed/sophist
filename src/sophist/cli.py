@@ -14,5 +14,5 @@ import click
 # and use it in the commend as --count=1
 # @click.argument('arg')
 def run(): #arg):  # (count, arg): if with option.
-    click.echo('Running package-name') # with') + arg)
+    click.echo('Running sophist') # with') + arg)
     main() #arg)
