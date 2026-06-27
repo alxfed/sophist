@@ -1,5 +1,5 @@
 # Sophist
-σοφιστής
+σοφιστής - a wise man.
 <pre>
   pip install sophist
 </pre>
